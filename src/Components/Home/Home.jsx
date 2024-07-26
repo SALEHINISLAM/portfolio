@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import AboutMe from '../AboutMe/AboutMe';
+import MyWork from '../MyWork/MyWork';
 const Home = props => {
     return (
         <>
@@ -35,6 +36,7 @@ const Home = props => {
             </div>
         </div>
         <AboutMe/>
+        <MyWork/>
         </>
     );
 };

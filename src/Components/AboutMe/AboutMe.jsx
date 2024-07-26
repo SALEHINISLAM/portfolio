@@ -27,7 +27,7 @@ const AboutMe = (props) => {
             <div className="mt-2">
               <img src="/curved.jpg" alt="" className="rounded-t-full w-48" />
               <img
-                src="/public/developer.png"
+                src="/developer.png"
                 alt=""
                 className="w-20 -mt-16 ml-16"
               />
@@ -75,7 +75,7 @@ const AboutMe = (props) => {
           <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="rounded-xl border-2 flex-grow p-4 md:m-8">
               <figure className="p-3">
-                <img src="/public/framework.png" alt="" className="size-12"/>
+                <img src="/framework.png" alt="" className="size-12"/>
               </figure>
               <h3 className="text-4xl font-bold">Framework and Technology</h3>
               <p className="text-2xl font-semibold">
