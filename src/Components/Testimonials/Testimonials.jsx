@@ -21,7 +21,7 @@ const Testimonials = (props) => {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-black">
+            <p className="text-2xl italic font-medium text-base-content">
               {
                 '"Salehin demonstrated exceptional frontend development skills during our competition. Their ability to work under pressure and deliver high-quality results was impressive. They are highly skilled and reliable."'
               }
@@ -48,7 +48,7 @@ const Testimonials = (props) => {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-black">
+            <p className="text-2xl italic font-medium text-base-content">
               {
                 '"Collaborating with Salehin was seamless. They quickly understood our requirements and implemented them flawlessly. Their work ethic and positive attitude made a significant impact on our project’s success."'
               }
@@ -75,7 +75,7 @@ const Testimonials = (props) => {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-black">
+            <p className="text-2xl italic font-medium text-base-content">
               {
                 '"Salehin has a rare combination of technical expertise and creative flair. Their contributions to our team during the recent hackathon were invaluable. They consistently exceeded our expectations."'
               }
@@ -101,7 +101,7 @@ const Testimonials = (props) => {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-black">
+            <p className="text-2xl italic font-medium text-base-content">
               {
                 '"I had the pleasure of working with Salehin on several projects. Their keen attention to detail and user-centric approach greatly enhanced the usability of our applications. They are a true asset to any team."'
               }
@@ -128,7 +128,7 @@ const Testimonials = (props) => {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-black">
+            <p className="text-2xl italic font-medium text-base-content">
               {
                 '"Salehin brought a fresh perspective to our project. Their innovative solutions during our team competition helped us secure the first place. Their frontend skills are top-notch, and they are a pleasure to work with."'
               }
@@ -154,7 +154,7 @@ const Testimonials = (props) => {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-black">
+            <p className="text-2xl italic font-medium text-base-content">
               {
                 '"Salehin consistently delivered high-quality code on time. Their ability to collaborate effectively with our team during hackathons was remarkable. I highly recommend their skills and dedication."'
               }
@@ -180,7 +180,7 @@ const Testimonials = (props) => {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-black">
+            <p className="text-2xl italic font-medium text-base-content">
               {
                 '"Working with Salehin was a fantastic experience. Their expertise in frontend development and eye for design helped our project stand out. They were proactive and always ready to tackle challenges head-on."'
               }
