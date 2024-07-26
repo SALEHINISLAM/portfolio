@@ -59,7 +59,7 @@ const Navbar = (props) => {
     </>
   );
   return (
-    <div className="container mx-auto sticky">
+    <div className="container mx-auto sticky bg-opacity-40 bg-gray-500 px-2 pb-2 rounded-b-2xl">
       <div className="flex flex-row justify-between items-center">
         <div className="p-1">
           <Link to="/">

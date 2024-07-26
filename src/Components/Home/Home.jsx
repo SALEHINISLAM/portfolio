@@ -4,10 +4,12 @@ import { MdDeveloperMode } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import AboutMe from '../AboutMe/AboutMe';
 const Home = props => {
     return (
-        <div className='container mx-auto flex flex-col justify-center space-y-8 items-center'>
-            <img src="/public/banner-salehin.png" alt="" className='w-60' />
+        <>
+        <div className='container mx-auto flex flex-col justify-center space-y-8 items-center py-12'>
+            <img src="/banner-salehin.png" alt="" className='w-60' />
             <h3 className='text-center text-2xl font-semibold'>
                 Hi! This is MD Salehin Islam.🖐
             </h3>
@@ -32,6 +34,8 @@ const Home = props => {
                 </a>
             </div>
         </div>
+        <AboutMe/>
+        </>
     );
 };
 
