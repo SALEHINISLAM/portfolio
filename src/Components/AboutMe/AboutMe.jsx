@@ -23,7 +23,7 @@ const AboutMe = (props) => {
           <div className="w-full bg-gray-500 bg-opacity-30 rounded-xl hover:rounded-full hover:duration-500 duration-1000 after:rounded-xl">
             <img src="/about-salehin.webp" alt="" className="" />
           </div>
-          <div className="rounded-full bg-white -ml-10 -mt-20 w-52 h-52 flex justify-center shadow-lg">
+          <div className="rounded-full bg-white lg:-ml-10 -mt-20 w-52 h-52 flex justify-center shadow-lg">
             <div className="mt-2">
               <img src="/curved.jpg" alt="" className="rounded-t-full w-48" />
               <img
@@ -72,7 +72,7 @@ const AboutMe = (props) => {
             </div>
             
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div className="rounded-xl border-2 flex-grow p-4 md:m-8">
               <figure className="p-3">
                 <img src="/framework.png" alt="" className="size-12"/>
