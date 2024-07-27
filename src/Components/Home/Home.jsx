@@ -26,7 +26,7 @@ const Home = props => {
             <p>
                 I'm frontend developer from Dhaka, Bangladesh with 1+ year of experience in multiple projects.
             </p>
-            <div className="flex flex-row gap-8">
+            <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
                 <Link to='/contact'>
                 <button className='btn btn-outline bg-gradient-to-r from-purple-500 to-pink-500 text-xl py-3 h-16 font-bold text-white rounded-full'>Contact With Me<FaRegArrowAltCircleRight /></button>
                 </Link>
