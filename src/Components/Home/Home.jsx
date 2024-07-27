@@ -17,13 +17,13 @@ const Home = props => {
             <h1 className='text-center text-5xl font-bold'>
                 Frontend Web Developer
                 <MdDeveloperMode className='inline'/></h1>
-                <h1 className='text-center text-5xl font-bold flex flex-row items-center'>
+                <h1 className='text-center text-5xl font-bold flex-col flex md:flex-row items-center'>
                 Based in Bangladesh. 
                 <div className="bg-green-600 w-10 h-6 flex justify-center items-center">
                     <div className="bg-red-600 rounded-full w-4 h-4"></div>
                 </div>
             </h1>
-            <p>
+            <p className='text-center'>
                 I'm frontend developer from Dhaka, Bangladesh with 1+ year of experience in multiple projects.
             </p>
             <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
