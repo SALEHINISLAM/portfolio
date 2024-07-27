@@ -18,7 +18,7 @@ const AboutMe = (props) => {
     <div className="container mx-auto flex flex-col justify-center items-center space-y-8">
       <h3 className="text-2xl font-semibold text-center">Introduction</h3>
       <h1 className="text-center text-5xl font-bold">About Me</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <div className=" col-span-1">
           <div className="w-full bg-gray-500 bg-opacity-30 rounded-xl hover:rounded-full hover:duration-500 duration-1000 after:rounded-xl">
             <img src="/about-salehin.webp" alt="" className="" />
