@@ -16,9 +16,10 @@ const Home = props => {
             <meta name='author' content='MD Salehin Islam'/>
             <meta property='og:title' content='MD Salehin Islam | Front End Developer'/>
             <meta property='og:description' content='Explore the world of MD Salehin Islam, a skilled front end developer specializing in creating dynamic and responsive web applications.'/>
+            <meta property='og:image' content='https://i.ibb.co/R2hwmP2/IMG-20240111-WA0015-EDIT.jpg'/>
             <meta property='og:url' content='https://mdsalehinislam.netlify.app/'/>
-            
             <meta property='og:url' content='https://mdsalehinislam.vercel.app/'/>
+            <meta property='og:url' content='https://salehinislam.com/'/>
 
         </Helmet>
         <div className='container mx-auto flex flex-col justify-center space-y-8 items-center py-12'>
@@ -42,7 +43,7 @@ const Home = props => {
                 <Link to='/contact'>
                 <button className='btn btn-outline bg-gradient-to-r from-purple-500 to-pink-500 text-xl py-3 h-16 font-bold text-white rounded-full'>Contact With Me<FaRegArrowAltCircleRight /></button>
                 </Link>
-                <a href='/salehinwebdesign cv.pdf'>
+                <a href='https://drive.google.com/drive/folders/1Fz_6wtKZ8kkd4B3LXG1kD4rbltLZ7TNG?usp=drive_link'>
                 <button className='btn btn-outline text-xl py-3 h-16 font-bold  rounded-full'>My Resume<FaCloudDownloadAlt /></button>
                 </a>
             </div>
