@@ -6,9 +6,21 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import AboutMe from '../AboutMe/AboutMe';
 import MyWork from '../MyWork/MyWork';
+import { Helmet } from 'react-helmet';
 const Home = props => {
     return (
         <>
+        <Helmet>
+            <meta name='description' content='Md Salehin Islam is a proficient front end developer with a strong background in creating dynamic and responsive web applications. Explore my portfolio to learn more about my work and skills.'/>
+            <meta name="keywords" content="MD Salehin Islam, Salehin, front end developer, web developer, portfolio, best web developer in bangladesh, HTML, CSS, BUET, Utkorsho, JavaScript, React" />
+            <meta name='author' content='MD Salehin Islam'/>
+            <meta property='og:title' content='MD Salehin Islam | Front End Developer'/>
+            <meta property='og:description' content='Explore the world of MD Salehin Islam, a skilled front end developer specializing in creating dynamic and responsive web applications.'/>
+            <meta property='og:url' content='https://mdsalehinislam.netlify.app/'/>
+            
+            <meta property='og:url' content='https://mdsalehinislam.vercel.app/'/>
+
+        </Helmet>
         <div className='container mx-auto flex flex-col justify-center space-y-8 items-center py-12'>
             <img src="/banner-salehin.png" alt="" className='w-60' />
             <h3 className='text-center text-2xl font-semibold'>
