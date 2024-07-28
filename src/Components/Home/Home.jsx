@@ -20,7 +20,10 @@ const Home = props => {
             <meta property='og:url' content='https://mdsalehinislam.netlify.app/'/>
             <meta property='og:url' content='https://mdsalehinislam.vercel.app/'/>
             <meta property='og:url' content='https://salehinislam.com/'/>
-
+            <link rel="canonical" href="https://mdsalehinislam.netlify.app/" />
+            <link rel="canonical" href="https://mdsalehinislam.vercel.app/" />
+            <link rel="canonical" href="https://salehinislam.com/" />
+            <meta name='robots' content='index, follow'/>
         </Helmet>
         <div className='container mx-auto flex flex-col justify-center space-y-8 items-center py-12'>
             <img src="/banner-salehin.png" alt="" className='w-60' />
