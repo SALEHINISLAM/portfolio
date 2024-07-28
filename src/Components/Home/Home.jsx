@@ -18,11 +18,11 @@ const Home = props => {
             <meta property='og:description' content='Explore the world of MD Salehin Islam, a skilled front end developer specializing in creating dynamic and responsive web applications.'/>
             <meta property='og:image' content='https://i.ibb.co/R2hwmP2/IMG-20240111-WA0015-EDIT.jpg'/>
             <meta property='og:url' content='https://mdsalehinislam.netlify.app/'/>
-            <meta property='og:url' content='https://mdsalehinislam.vercel.app/'/>
-            <meta property='og:url' content='https://salehinislam.com/'/>
+            {/* <meta property='og:url' content='https://mdsalehinislam.vercel.app/'/>
+            <meta property='og:url' content='https://salehinislam.com/'/> */}
             <link rel="canonical" href="https://mdsalehinislam.netlify.app/" />
-            <link rel="canonical" href="https://mdsalehinislam.vercel.app/" />
-            <link rel="canonical" href="https://salehinislam.com/" />
+            <link rel="alternate" href="https://mdsalehinislam.vercel.app/" />
+            <link rel="alternate" href="https://salehinislam.com/" />
             <meta name='robots' content='index, follow'/>
         </Helmet>
         <div className='container mx-auto flex flex-col justify-center space-y-8 items-center py-12'>

@@ -35,20 +35,20 @@ const Contact = (props) => {
           property="og:url"
           content="https://mdsalehinislam.netlify.app/contact"
         />
-        <meta
-          property="og:url"
-          content="https://mdsalehinislam.vercel.app/contact"
-        />
-        <meta property="og:url" content="https://salehinislam.com/contact" />
+        {/* // <meta */}
+        {/* //   property="og:url"
+        //   content="https://mdsalehinislam.vercel.app/contact"
+        // />
+        // <meta property="og:url" content="https://salehinislam.com/contact" /> */}
         <link
           rel="canonical"
           href="https://mdsalehinislam.netlify.app/contact"
         />
         <link
-          rel="canonical"
+          rel="alternate"
           href="https://mdsalehinislam.vercel.app/contact"
         />
-        <link rel="canonical" href="https://salehinislam.com/contact" />
+        <link rel="alternate" href="https://salehinislam.com/contact" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <div className="flex flex-col space-y-8 py-8 justify-center items-center">
