@@ -24,6 +24,31 @@ const MyWork = (props) => {
         <div className="card bg-base-100 image-full shadow-xl">
           <figure>
             <img
+              src="/donation-campaign.JPG"
+              alt="Project"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Donation Campaign</h2>
+            <p>Here you can donate in humanitarian work and compare them in piecharts.</p>
+            <h3 className="text-xl flex flex-row">
+            <FaHtml5/>
+            <FaCss3Alt/>
+            <IoLogoJavascript></IoLogoJavascript>
+            <RiTailwindCssFill/>
+            <SiDaisyui/>
+            <FaReact/>
+            </h3>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">
+                <a href="https://donation-campaign-virid.vercel.app/" target="_blank">View Site</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="card bg-base-100 image-full shadow-xl">
+          <figure>
+            <img
               src="/money-master.JPG"
               alt="Project"
             />
