@@ -11,6 +11,7 @@ const Home = props => {
     return (
         <>
         <Helmet>
+            <title>Md Salehin Islam</title>
             <meta name='description' content='Md Salehin Islam is a proficient front end developer with a strong background in creating dynamic and responsive web applications. Explore my portfolio to learn more about my work and skills.'/>
             <meta name="keywords" content="MD Salehin Islam, Salehin, front end developer, web developer, portfolio, best web developer in bangladesh, HTML, CSS, BUET, Utkorsho, JavaScript, React" />
             <meta name='author' content='MD Salehin Islam'/>

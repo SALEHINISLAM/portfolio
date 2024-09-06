@@ -3,13 +3,14 @@ import PropTypes from "prop-types";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiDaisyui } from "react-icons/si";
+import { SiDaisyui, SiExpress } from "react-icons/si";
 import { SiGooglegemini } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { SiGoogleforms } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
 import './MyWork.css'
+import { DiFirebase, DiMongodb } from "react-icons/di";
 
 const MyWork = (props) => {
   return (
@@ -20,6 +21,64 @@ const MyWork = (props) => {
       <h1 className="text-center text-5xl font-bold">Some of my works</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mx-2">
+
+        <div className="card bg-base-100 image-full shadow-xl">
+          <figure>
+            <img
+              src="/professionalNetwork.JPG"
+              alt="Project"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Professional Network</h2>
+            <p>AI Integrated modern job portal connecting students, job seekers, employer, entrepreneur</p>
+            <h3 className="text-xl flex flex-row">
+            <FaHtml5/>
+            <FaCss3Alt/>
+            <IoLogoJavascript></IoLogoJavascript>
+            <RiTailwindCssFill/>
+            <SiDaisyui/>
+            <FaReact/>
+            <DiMongodb/>
+            <SiExpress/>
+            <DiFirebase/>
+            </h3>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">
+                <a href="https://professional-network-c316e.web.app/" target="_blank">View Site</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="card bg-base-100 image-full shadow-xl">
+          <figure>
+            <img
+              src="/iFit.JPG"
+              alt="Project"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">iFit: Connecting your fitness trainer</h2>
+            <p>Here you can sign up as fitness trainer or learner and pay trainer with stripe and confirm your trainer. </p>
+            <h3 className="text-xl flex flex-row">
+            <FaHtml5/>
+            <FaCss3Alt/>
+            <IoLogoJavascript></IoLogoJavascript>
+            <RiTailwindCssFill/>
+            <SiDaisyui/>
+            <FaReact/>
+            <DiMongodb/>
+            <SiExpress/>
+            <DiFirebase/>
+            </h3>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">
+                <a href="https://ifit-acbe2.web.app/" target="_blank">View Site</a>
+              </button>
+            </div>
+          </div>
+        </div>
 
         <div className="card bg-base-100 image-full shadow-xl">
           <figure>
@@ -46,6 +105,7 @@ const MyWork = (props) => {
             </div>
           </div>
         </div>
+
         <div className="card bg-base-100 image-full shadow-xl">
           <figure>
             <img
