@@ -7,7 +7,7 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 import AboutMe from '../AboutMe/AboutMe';
 import MyWork from '../MyWork/MyWork';
 import { Helmet } from 'react-helmet';
-const Home = props => {
+const Home = () => {
     return (
         <>
         <Helmet>

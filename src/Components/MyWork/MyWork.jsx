@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiDaisyui, SiExpress } from "react-icons/si";
 import { SiGooglegemini } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io5";
+import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { SiGoogleforms } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa";
@@ -22,6 +22,34 @@ const MyWork = (props) => {
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mx-2">
 
+        <div className="card bg-base-100 image-full shadow-xl">
+          <figure>
+            <img
+              src="/professionalUpdate.JPG"
+              alt="Salehin Project"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Professional Update</h2>
+            <p>First Ever AI integrated Job Portal in bangladesh</p>
+            <h3 className="text-xl flex flex-row">
+            <FaHtml5/>
+            <FaCss3Alt/>
+            <IoLogoJavascript></IoLogoJavascript>
+            <RiTailwindCssFill/>
+            <SiDaisyui/>
+            <FaReact/>
+            <DiMongodb/>
+            <RiNextjsLine />
+            <IoLogoVercel />
+            </h3>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">
+                <a href="https://www.professionalupdate.com/" target="_blank">View Site</a>
+              </button>
+            </div>
+          </div>
+        </div>
         <div className="card bg-base-100 image-full shadow-xl">
           <figure>
             <img
