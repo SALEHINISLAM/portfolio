@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /private/
-Allow: /
-Sitemap: https://mdsalehinislam.netlify.app/sitemap.xml
-Sitemap: https://mdsalehinislam.vercel.app/sitemap.xml
-Sitemap: https://salehinislam.com/sitemap.xml
