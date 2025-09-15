@@ -3,6 +3,7 @@ import EntrepreneurialExperience from "@/components/EntrepreneuralExperience/Ent
 import HeroSection from "@/components/HomePage/HeroSection";
 import Videos from "@/components/Videos/Videos";
 import VolunteerSection from "@/components/Volunteering/Volunteering";
+import Websites from "@/components/Websites/Websites";
 import WorkExperience from "@/components/WorkExperience/WorkExperience";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <EntrepreneurialExperience/>
       <Videos/>
       <VolunteerSection />
+      <Websites/>
     </>
   );
 }

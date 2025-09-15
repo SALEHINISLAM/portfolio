@@ -326,7 +326,7 @@ export default function EntrepreneurialExperience() {
                         <h4 className="font-semibold mb-2">
                           {t.labels.keyMoments}
                         </h4>
-                        <ul className="list-disc ms-4 text-sm text-base-content/70">
+                        <ul className="list-disc ms-4 text-sm text-base-content/70 text-left">
                           {item.moments.map((m, i) => (
                             <li key={i}>{m}</li>
                           ))}
@@ -350,7 +350,7 @@ export default function EntrepreneurialExperience() {
                         <h4 className="font-semibold mb-2">
                           {t.labels.learnings}
                         </h4>
-                        <ul className="list-disc ms-4 text-sm text-base-content/70">
+                        <ul className="list-disc ms-4 text-sm text-base-content/70 text-left">
                           {item.learnings.map((l, i) => (
                             <li key={i}>{l}</li>
                           ))}

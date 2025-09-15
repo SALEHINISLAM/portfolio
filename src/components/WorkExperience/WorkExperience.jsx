@@ -211,7 +211,7 @@ export default function WorkExperience() {
               {idx !== 0 && <hr />}
               <div className="timeline-middle">
                 <div className="badge badge-primary whitespace-nowrap">
-                  {item.date}
+                  {idx+1}
                 </div>
               </div>
               <div
@@ -219,6 +219,11 @@ export default function WorkExperience() {
                   idx % 2 === 0 ? "timeline-start md:text-end" : "timeline-end"
                 } mb-10`}
               >
+                <div className="timeline-middle">
+                  <div className="badge badge-error whitespace-nowrap">
+                    {item.date}
+                  </div>
+                </div>
                 <div className="inline-flex items-center gap-2">
                   <div className="text-lg font-bold">{item.org}</div>
                   <span className="text-sm opacity-70">• {item.role}</span>
@@ -249,7 +254,7 @@ export default function WorkExperience() {
                         <h4 className="font-semibold mb-2">
                           {language === "bn" ? "যা যা করেছি" : "Key moments"}
                         </h4>
-                        <ul className="list-disc ms-4 text-sm text-base-content/70">
+                        <ul className="list-disc ms-4 text-sm text-base-content/70 text-left">
                           {item.moments.map((m, i) => (
                             <li key={i}>{m}</li>
                           ))}
