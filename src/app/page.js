@@ -1,6 +1,7 @@
 import BioData from "@/components/BioData/BioData";
 import EntrepreneurialExperience from "@/components/EntrepreneuralExperience/EntrepreneuralExperience";
 import HeroSection from "@/components/HomePage/HeroSection";
+import Presentation from "@/components/Presentations/Presentations";
 import Videos from "@/components/Videos/Videos";
 import VolunteerSection from "@/components/Volunteering/Volunteering";
 import Websites from "@/components/Websites/Websites";
@@ -16,6 +17,7 @@ export default function Home() {
       <Videos/>
       <VolunteerSection />
       <Websites/>
+      <Presentation/>
     </>
   );
 }

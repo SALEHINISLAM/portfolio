@@ -1,0 +1,201 @@
+"use client";
+import React, { useState, useEffect, useMemo, Suspense } from "react";
+
+const Presentation = () => {
+  const translations = useMemo(() => ({
+    en: {
+      heading: "My Presentations",
+      description: "Explore the presentations I've created. Click on the links to play the slides directly.",
+      presentationList: [
+        {
+          title: "Innovating Paddy Cultivation",
+          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
+          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
+        },
+        {
+          title: "MedyBuddy a Telemedicine Platform",
+          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
+          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
+        },
+        {
+          title: "Stokes Theorem",
+          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
+          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
+        },
+        {
+          title: "Presentation 4",
+          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
+          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
+        },
+        {
+          title: "Unilever sparks Lifebuoy vs. Dove",
+          src: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?embed",
+          publicLink: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?utm_content=DAGiD-eAucQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+        },
+        {
+          title: "Platano Tex.pptx",
+          src: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?embed",
+          publicLink: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?utm_content=DAF-MepRX6U&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+        },
+      ],
+    },
+    bn: {
+      heading: "আমার প্রেজেন্টেশনসমূহ",
+      description: "এখানে আমার তৈরি কিছু প্রেজেন্টেশন রয়েছে। স্লাইডগুলো দেখতে ক্লিক করুন।",
+      presentationList: [
+        {
+          title: "ইনভেতটিভ প্যাডি কাল্টিভেশন",
+          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
+          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
+        },
+        {
+          title: "আপনার সেবায় মেডিবাডি",
+          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
+          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
+        },
+        {
+          title: "প্রেজেন্টেশন ৩",
+          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
+          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
+        },
+        {
+          title: "প্রেজেন্টেশন ৪",
+          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
+          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
+        },
+        {
+          title: "Unilever sparks Lifebuoy vs. Dove",
+          src: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?embed",
+          publicLink: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?utm_content=DAGiD-eAucQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+        },
+        {
+          title: "Platano Tex.pptx",
+          src: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?embed",
+          publicLink: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?utm_content=DAF-MepRX6U&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+        },
+      ],
+    },
+  }), []);
+
+  const [language, setLanguage] = useState("en");
+  const [activeVideo, setActiveVideo] = useState(null);
+
+  useEffect(() => {
+    const currentLang = document.documentElement.lang || "en";
+    setLanguage(currentLang.startsWith("bn") ? "bn" : "en");
+
+    const observer = new MutationObserver(() => {
+      const l = document.documentElement.lang || "en";
+      setLanguage(l.startsWith("bn") ? "bn" : "en");
+    });
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["lang"],
+    });
+    return () => observer.disconnect();
+  }, []);
+
+  const t = translations[language];
+
+  return (
+    <section className="bg-base-100 py-16 px-4">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl font-semibold tracking-tight mb-6 text-center">
+          {t.heading}
+        </h2>
+        <p className="text-lg text-base-content/70 mb-10 text-center">
+          {t.description}
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {t.presentationList.map((presentation, index) => (
+            <div key={index} className="card bg-base-200 shadow-md">
+              <div className="card-body">
+                <h3 className="text-xl font-semibold">{presentation.title}</h3>
+                <div className="aspect-w-16 aspect-h-9 mt-4">
+                  <Suspense
+                    fallback={<div className="skeleton h-full w-full" />}
+                  >
+                    <iframe
+                      src={presentation.src}
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      scrolling="no"
+                      allow="fullscreen"
+                      title={presentation.title}
+                    ></iframe>
+                  </Suspense>
+                </div>
+                <div className="flex gap-4 mt-4">
+                  <button
+                    className="btn btn-primary w-1/2 h-auto"
+                    onClick={() => setActiveVideo(presentation)}
+                  >
+                    {language === "bn" ? "স্লাইডশো প্লে করুন" : "Play Slideshow"}
+                  </button>
+                  <a
+                    href={presentation.publicLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline w-1/2 h-auto"
+                  >
+                    {language === "bn" ? "পাবলিক লিঙ্ক খুলুন" : "Open Public Link"}
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Modal */}
+      {activeVideo && (
+        <dialog
+          className="modal modal-open"
+          onClose={() => setActiveVideo(null)}
+        >
+          <div className="modal-box max-w-4xl">
+            <div className="flex items-start justify-between gap-4">
+              <h4 className="text-lg font-semibold pr-6 line-clamp-2">
+                {language === "bn" ? activeVideo.title_bn : activeVideo.title_en}
+              </h4>
+              <form method="dialog">
+                <button
+                  className="btn btn-sm btn-circle btn-ghost"
+                  aria-label="Close"
+                  onClick={() => setActiveVideo(null)}
+                >
+                  ✕
+                </button>
+              </form>
+            </div>
+            <div className="mt-4">
+              <Suspense
+                fallback={<div className="skeleton h-full w-full" />}
+              >
+                <iframe
+                  src={activeVideo.src}
+                  width="100%"
+                  height="600px"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="fullscreen"
+                ></iframe>
+              </Suspense>
+            </div>
+            <div className="modal-action">
+              <form method="dialog">
+                <button className="btn" onClick={() => setActiveVideo(null)}>
+                  Close
+                </button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      )}
+    </section>
+  );
+};
+
+export default Presentation;
