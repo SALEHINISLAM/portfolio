@@ -69,7 +69,14 @@ export default function Websites() {
         "AI-সহায়ক ক্যারিয়ার টুলস: CV বানানো, জব সার্চ, নিয়োগকর্তা ও উদ্যোক্তাদের জন্য ড্যাশবোর্ড। এটি আমাদের স্টার্টআপ প্রফেশনাল আপডেটের MVP। এর মাধ্যমে আমরা UIHP থেকে প্রি-সিড ফান্ডিং পেয়েছি।",
       website: "https://professional-update.vercel.app/",
       github: "https://github.com/SALEHINISLAM/ProfessionalUpdate.git",
-      tech: ["Next.js", "React", "Tailwind CSS", "daisyUI","MongoDB","Gemini AI" ],
+      tech: [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "daisyUI",
+        "MongoDB",
+        "Gemini AI",
+      ],
     },
     {
       id: "college-admission-viva",
@@ -93,7 +100,7 @@ export default function Websites() {
         "হ্যাকাথন, পোস্টার প্রেজেন্টেশন, কেস কম্পিটিশন খুঁজুন; আয়োজকরা ইভেন্ট প্রকাশ করতে পারেন।",
       website: "https://events4students.vercel.app/",
       github: "https://github.com/SALEHINISLAM/events4students.git",
-      tech: ["Next.js", "React", "Tailwind CSS", "daisyUI","MongoDB" ],
+      tech: ["Next.js", "React", "Tailwind CSS", "daisyUI", "MongoDB"],
     },
     {
       id: "daily-task-manager",
@@ -129,32 +136,47 @@ export default function Websites() {
         "এই ওয়েবসাইটে ইউজার তার গন্তব্যের একটি ট্যুর প্ল্যান পেতে পারে AI থেকে। তারপর সে ট্যুর বুক করতে পারে। ট্যুরের সময় তারা ছবি আপলোড করতে পারে, ছবির সাথে AI বর্ণনা দেবে এবং আপলোড করা ছবির মাধ্যমে ট্যুরের ভিডিও তৈরি করবে এবং ব্লগ লিখবে। অথেনটিকেশন এবং রাউটিং implement করা হয়েছে। এটি একটি হ্যাকাথন প্রজেক্ট যা বেস্ট ডকুমেন্টেশন ক্যাটাগরিতে পুরস্কৃত হয়েছে।",
       website: "https://tourtravel-f20c4.web.app/",
       github: "https://github.com/SALEHINISLAM/tour-travel.git",
-      tech: ["React", "Firebase Auth", "React Router", "Tailwind CSS", "daisyUI","MongoDB","Gemini API","Vite","Express" ],
+      tech: [
+        "React",
+        "Firebase Auth",
+        "React Router",
+        "Tailwind CSS",
+        "daisyUI",
+        "MongoDB",
+        "Gemini API",
+        "Vite",
+        "Express",
+      ],
     },
   ];
 
   return (
-    <section id="projects" className="bg-base-100 py-16 px-4">
+    <section id="as-a-web-developer" className="bg-base-100 py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <header className="mb-8 text-center">
           <h2 className="text-4xl font-bold tracking-tight">{t.title}</h2>
         </header>
 
-<BriefOfThisSection/>
-<div className="flex items-start flex-col gap-2 my-6">
-    <h3 className="text-base-content text-3xl font-semibold">
-        {t.madeSectionTitle}
-    </h3>
-    <p className="text-lg text-base-content/70">{t.subtitle}</p>
-</div>
+        <BriefOfThisSection />
+        <div className="flex items-start flex-col gap-2 my-6">
+          <h3 className="text-base-content text-3xl font-semibold">
+            {t.madeSectionTitle}
+          </h3>
+          <p className="text-lg text-base-content/70">{t.subtitle}</p>
+        </div>
         {/* Projects Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((p) => (
-            <article key={p.id} className="card bg-base-200/60 shadow-sm hover:shadow-md transition-shadow">
+            <article
+              key={p.id}
+              className="card bg-base-200/60 shadow-sm hover:shadow-md transition-shadow"
+            >
               <div className="card-body">
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="card-title leading-tight">
-                    <span className="block">{language === "bn" ? p.nameBn : p.name}</span>
+                    <span className="block">
+                      {language === "bn" ? p.nameBn : p.name}
+                    </span>
                   </h3>
                 </div>
 

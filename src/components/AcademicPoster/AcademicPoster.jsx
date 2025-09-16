@@ -34,8 +34,8 @@ const AcademicPoster = () => {
       ],
     },
     bn: {
-      heading: "আমার প্রেজেন্টেশনসমূহ",
-      description: "এখানে আমার তৈরি কিছু প্রেজেন্টেশন রয়েছে। চিত্রগুলো দেখতে ক্লিক করুন।",
+      heading: "আমার একাডেমিক পোস্টারসমূহ",
+      description: "এখানে আমার তৈরি কিছু পোস্টার রয়েছে। চিত্রগুলো দেখতে ক্লিক করুন।",
       posterList: [
         {
           title: "নিউ ইয়র্ক সিটিকর্প সেন্টারে ইঞ্জিনিয়ারিং সংকট",
@@ -85,7 +85,7 @@ const AcademicPoster = () => {
   const t = translations[language];
 
   return (
-    <section className="bg-base-100 py-16 px-4">
+    <section id="academic-poster" className="bg-base-100 py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold tracking-tight mb-6 text-center">
           {t.heading}

@@ -1,7 +1,60 @@
 "use client";
 import Image from "next/image";
-import LanguageThemeToggle from "./LanguageThemeToggle";
 import Link from "next/link";
+import { FaPenNib } from "react-icons/fa6";
+import { IoPerson } from "react-icons/io5";
+import { GrContact } from "react-icons/gr";
+
+const NavOptions = (
+  <>
+    <li>
+      <details>
+        <summary className="flex flex-row gap-2"><IoPerson /> About Me</summary>
+        <ul className="p-2 w-auto">
+          <li>
+            <a href="/#brief">Short Brief</a>
+          </li>
+          <li>
+            <a href="/#biodata">Bio Data</a>
+          </li>
+          <li>
+            <a href="/#work-experience">Work Experience</a>
+          </li>
+          <li>
+            <a href="/#entrepreneurial-experience">Entrepreneurial Experience</a>
+          </li>
+          <li>
+            <a href="/#videos">My Videos</a>
+          </li>
+          <li>
+            <a href="/#volunteering">Volunteering</a>
+          </li>
+          <li>
+            <a href="/#as-a-web-developer">As a Web Developer</a>
+          </li>
+          <li>
+            <a href="/#presentation-slide">Presentation Slide</a>
+          </li>
+          <li>
+            <a href="/#academic-poster">Academic Posters</a>
+          </li>
+          <li>
+            <a href="/#academic-poster">Academic Posters</a>
+          </li>
+          <li>
+            <a href="/#achievements">Some Achievements</a>
+          </li>
+          <li>
+            <a href="/#education">Educational Background</a>
+          </li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <Link href={"/blogs"} className="flex flex-row gap-2"> <FaPenNib /> Blogs</Link>
+    </li>
+  </>
+);
 
 const MainNavbar = () => {
   return (
@@ -30,23 +83,7 @@ const MainNavbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+            {NavOptions}
           </ul>
         </div>
 
@@ -67,40 +104,18 @@ const MainNavbar = () => {
             width={100}
             height={100}
           />
-          <span className="text-3xl font-extrabold">
-            Salehin
-          </span>
+          <span className="text-3xl font-extrabold">Salehin</span>
         </Link>
       </div>
 
       {/* Navbar center - Menu items for larger screens */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Item 1</a>
-          </li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <a>Item 3</a>
-          </li>
-        </ul>
+        <ul className="menu menu-horizontal px-1">{NavOptions}</ul>
       </div>
 
       {/* Navbar end - Language and Theme Toggle */}
       <div className="navbar-end">
-        {/* <LanguageThemeToggle /> */}
+        <Link href={"/contact"} className="btn btn-ghost flex flex-row gap-2"><GrContact />Contact Me</Link>
       </div>
     </div>
   );

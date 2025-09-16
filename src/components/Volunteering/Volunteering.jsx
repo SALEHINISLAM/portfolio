@@ -103,7 +103,7 @@ const VolunteerSection = () => {
   const t = translations[language];
 
   return (
-    <section className="py-12 bg-base-100">
+    <section id="volunteering" className="py-12 bg-base-100">
       <div className="container mx-auto px-4">
         <div className="mb-8 text-center">
           <h2 className="text-4xl font-bold">{t.sectionTitle}</h2>

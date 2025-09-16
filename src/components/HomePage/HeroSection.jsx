@@ -49,7 +49,7 @@ const HeroSection = () => {
     return () => observer.disconnect();
   }, []);
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div id="brief" className="hero bg-base-200 min-h-screen">
       <div className="hero-content text-center">
         <div className="max-w-lg mt-16 lg:mt-24">
           <Suspense fallback={<div className="skeleton h-full w-full" />}>

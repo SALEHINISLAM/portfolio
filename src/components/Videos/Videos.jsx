@@ -144,7 +144,7 @@ export default function Videos() {
         };
 
   return (
-    <section className="mx-auto container">
+    <section id="videos" className="mx-auto container">
       
         <div className="justify-center flex flex-col items-center text-center">
           <h2 className="text-4xl font-bold text-center justify-center">{t.heading}</h2>
