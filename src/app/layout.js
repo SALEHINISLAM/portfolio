@@ -51,7 +51,7 @@ export const metadata = {
     siteName: "Md Salehin Islam Portfolio",
     images: [
       {
-        url: "/assets/heroPic.JPG", // add your profile/cover image here
+        url: "https://mdsalehinislam.netlify.app/assets/heroPic.JPG", // add your profile/cover image here
         width: 1200,
         height: 630,
         alt: "Md Salehin Islam Portfolio"

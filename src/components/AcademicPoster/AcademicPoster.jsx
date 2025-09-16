@@ -5,80 +5,67 @@ const AcademicPoster = () => {
   const translations = useMemo(() => ({
     en: {
       heading: "My Academic Posters",
-      description: "Explore the academic posters I've created. Click on the links to view them directly.",
+      description: "Explore the academic posters I've created. Click on the images to view them directly.",
       posterList: [
         {
-          title: "Innovating Paddy Cultivation",
-          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
-          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
+          title: "Engineering Crisis in New York Citicorp Center",
+          description: "A detailed poster on the engineering crisis faced by the Citicorp Center in New York. I made this poster solely.",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTOgmYoGRYQQIkZoccwvpfqAd1vJdp_GFeTlJqaLEcZeoo?width=10800&height=7200",
+          publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTOgmYoGRYQQIkZoccwvpfqAd1vJdp_GFeTlJqaLEcZeoo?width=10800&height=7200",
         },
         {
-          title: "MedyBuddy a Telemedicine Platform",
-          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
-          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
+          title: "Trans-boundary River Management and Its Impact on Bangladesh",
+          description: "A comprehensive poster discussing the challenges and strategies of trans-boundary river management in Bangladesh.This poster was created by me, Hamim and Ira.",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQQJl03fYVeOQp_5gHwOdQZWAa5SVwheOPdGyo8mJT2Rk04?width=2304&height=1728",
+          publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQQJl03fYVeOQp_5gHwOdQZWAa5SVwheOPdGyo8mJT2Rk04?width=2304&height=1728",
         },
         {
-          title: "Stokes Theorem",
-          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
-          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
+          title: "The Importance of Plastic Roads",
+          description: "An informative poster highlighting the benefits and implementation of plastic roads. Here my input was minimal. Adnan did most of the work. But initially the idea was mine. And I helped him find out information regarding plastic roads. Whatever, this poster secured 2nd Runner Up in MIST Environment Fest-2025.",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTcflsQeesfTJKe9xUwRql0ASXfbeDN84h2qNoxq0I1wmc",
+          publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTcflsQeesfTJKe9xUwRql0ASXfbeDN84h2qNoxq0I1wmc",
         },
         {
-          title: "Edtech Industry",
-          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
-          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
-        },
-        {
-          title: "Unilever sparks Lifebuoy vs. Dove",
-          src: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?embed",
-          publicLink: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?utm_content=DAGiD-eAucQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
-        },
-        {
-          title: "Platano Tex.pptx",
-          src: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?embed",
-          publicLink: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?utm_content=DAF-MepRX6U&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+          title: "SC Maglev Train",
+          description: "A detailed poster on the SC Maglev Train, showcasing its design, technology, and potential impact on transportation. This poster was made by me and Nusrat.",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQR_H2wsS4vXTIOU1zaJcsP3ASXOfPDMbqkJCJPFYIkOpcU?width=10800&height=7200",
+          publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQR_H2wsS4vXTIOU1zaJcsP3ASXOfPDMbqkJCJPFYIkOpcU?width=10800&height=7200",
         },
       ],
     },
     bn: {
       heading: "আমার প্রেজেন্টেশনসমূহ",
-      description: "এখানে আমার তৈরি কিছু প্রেজেন্টেশন রয়েছে। স্লাইডগুলো দেখতে ক্লিক করুন।",
-      presentationList: [
+      description: "এখানে আমার তৈরি কিছু প্রেজেন্টেশন রয়েছে। চিত্রগুলো দেখতে ক্লিক করুন।",
+      posterList: [
         {
-          title: "ইনভেটিভ প্যাডি কাল্টিভেশন",
-          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
-          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
+          title: "নিউ ইয়র্ক সিটিকর্প সেন্টারে ইঞ্জিনিয়ারিং সংকট",
+          description: "নিউ ইয়র্কের সিটিকর্প সেন্টারে ইঞ্জিনিয়ারিং সংকট নিয়ে একটি বিস্তারিত পোস্টার। আমি এই পোস্টারটি একাই তৈরি করেছি।",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTOgmYoGRYQQIkZoccwvpfqAd1vJdp_GFeTlJqaLEcZeoo?width=10800&height=7200",
+          publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTOgmYoGRYQQIkZoccwvpfqAd1vJdp_GFeTlJqaLEcZeoo?width=10800&height=7200",
         },
         {
-          title: "আপনার সেবায় মেডিবাডি",
-          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
-          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
+          title: "সীমান্তবর্তী নদী ব্যবস্থাপনা এবং বাংলাদেশের উপর এর প্রভাব",
+          description: "বাংলাদেশে সীমান্তবর্তী নদী ব্যবস্থাপনা এবং এর প্রভাব নিয়ে একটি বিস্তৃত পোস্টার। এই পোস্টারটি আমি, হামিম এবং ইরা তৈরি করেছি।",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQQJl03fYVeOQp_5gHwOdQZWAa5SVwheOPdGyo8mJT2Rk04?width=2304&height=1728",
+          publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQQJl03fYVeOQp_5gHwOdQZWAa5SVwheOPdGyo8mJT2Rk04?width=2304&height=1728",
         },
         {
-          title: "স্টোক্সের উপপাদ্য",
-          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
-          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
+          title: "প্লাস্টিকের রাস্তার গুরুত্ব",
+          description: "প্লাস্টিকের রাস্তার সুবিধা এবং বাস্তবায়ন নিয়ে একটি তথ্যবহুল পোস্টার। এখানে আমার ইনপুট খুবই কম। আদনান বেশিরভাগ কাজ করেছে। কিন্তু শুরুতে আইডিয়াটা আমারই ছিল এবং প্লাস্টিকের রাস্তা সম্পর্কে তথ্য খুঁজে পেতে আমি তাকে সাহায্য করেছি। যায়হোক এই পোস্টার টি MIST এর Environment Fest এ 2nd Runner Up স্থান অধিকার করে।",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTcflsQeesfTJKe9xUwRql0ASXfbeDN84h2qNoxq0I1wmc",
+          publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTcflsQeesfTJKe9xUwRql0ASXfbeDN84h2qNoxq0I1wmc",
         },
         {
-          title: "এডটেক ইন্ডাস্ট্রি",
-          src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
-          publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
-        },
-        {
-          title: "Unilever sparks Lifebuoy vs. Dove",
-          src: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?embed",
-          publicLink: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?utm_content=DAGiD-eAucQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
-        },
-        {
-          title: "Platano Tex.pptx",
-          src: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?embed",
-          publicLink: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?utm_content=DAF-MepRX6U&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+          title: "SC Maglev Train",
+          description:"SC Maglev Train নিয়ে একটি বিস্তারিত পোস্টার, যা এর ডিজাইন, প্রযুক্তি এবং পরিবহনে সম্ভাব্য প্রভাব তুলে ধরে। এই পোস্টারটি আমি এবং নুসরাত তৈরি করেছি।",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQR_H2wsS4vXTIOU1zaJcsP3ASXOfPDMbqkJCJPFYIkOpcU?width=10800&height=7200",
+          publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQR_H2wsS4vXTIOU1zaJcsP3ASXOfPDMbqkJCJPFYIkOpcU?width=10800&height=7200",
         },
       ],
     },
   }), []);
 
   const [language, setLanguage] = useState("en");
-  const [activeVideo, setActiveVideo] = useState(null);
 
   useEffect(() => {
     const currentLang = document.documentElement.lang || "en";
@@ -108,37 +95,27 @@ const AcademicPoster = () => {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {t.presentationList?.map((presentation, index) => (
+          {t.posterList?.map((poster, index) => (
             <div key={index} className="card bg-base-200 shadow-md">
               <div className="card-body">
-                <h3 className="text-xl font-semibold">{presentation.title}</h3>
+                <h3 className="text-xl font-semibold">{poster.title}</h3>
+                <p className="text-base-content/70 mt-2">{poster.description}</p>
                 <div className="aspect-w-16 aspect-h-9 mt-4">
-                  <Suspense
-                    fallback={<div className="skeleton h-full w-full" />}
-                  >
-                    <iframe
-                      src={presentation.src}
-                      width="100%"
-                      height="100%"
-                      frameBorder="0"
-                      scrolling="no"
-                      allow="fullscreen"
-                      title={presentation.title}
-                    ></iframe>
+                  <Suspense fallback={<div className="skeleton h-full w-full" />}>
+                    <img
+                      src={poster.src}
+                      alt={poster.title}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
                   </Suspense>
                 </div>
                 <div className="flex gap-4 mt-4">
-                  <button
-                    className="btn btn-primary w-1/2 h-auto"
-                    onClick={() => setActiveVideo(presentation)}
-                  >
-                    {language === "bn" ? "স্লাইডশো প্লে করুন" : "Play Slideshow"}
-                  </button>
                   <a
-                    href={presentation.publicLink}
+                    href={poster.publicLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-outline w-1/2 h-auto"
+                    className="btn btn-primary w-1/2 h-auto"
                   >
                     {language === "bn" ? "পাবলিক লিঙ্ক খুলুন" : "Open Public Link"}
                   </a>
@@ -148,52 +125,6 @@ const AcademicPoster = () => {
           ))}
         </div>
       </div>
-
-      {/* Modal */}
-      {activeVideo && (
-        <dialog
-          className="modal modal-open"
-          onClose={() => setActiveVideo(null)}
-        >
-          <div className="modal-box max-w-4xl">
-            <div className="flex items-start justify-between gap-4">
-              <h4 className="text-lg font-semibold pr-6 line-clamp-2">
-                {language === "bn" ? activeVideo.title_bn : activeVideo.title_en}
-              </h4>
-              <form method="dialog">
-                <button
-                  className="btn btn-sm btn-circle btn-ghost"
-                  aria-label="Close"
-                  onClick={() => setActiveVideo(null)}
-                >
-                  ✕
-                </button>
-              </form>
-            </div>
-            <div className="mt-4">
-              <Suspense
-                fallback={<div className="skeleton h-full w-full" />}
-              >
-                <iframe
-                  src={activeVideo.src}
-                  width="100%"
-                  height="600px"
-                  frameBorder="0"
-                  scrolling="no"
-                  allow="fullscreen"
-                ></iframe>
-              </Suspense>
-            </div>
-            <div className="modal-action">
-              <form method="dialog">
-                <button className="btn" onClick={() => setActiveVideo(null)}>
-                  Close
-                </button>
-              </form>
-            </div>
-          </div>
-        </dialog>
-      )}
     </section>
   );
 };

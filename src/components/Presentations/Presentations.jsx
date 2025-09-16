@@ -120,10 +120,10 @@ const Presentation = () => {
                       src={presentation.src}
                       width="100%"
                       height="100%"
-                      frameBorder="0"
-                      scrolling="no"
+                      style={{ border: "none", overflow: "hidden" }}
                       allow="fullscreen"
                       title={presentation.title}
+                      loading="lazy"
                     ></iframe>
                   </Suspense>
                 </div>

@@ -47,7 +47,7 @@ const BioData = () => {
       employerDesc:
         "আমি আগ্রাহী, শিখতে দ্রুত ও বাস্তবসম্মত — সমস্যা সল্ভ করতে ও কাজ তৈরি করতে পছন্দ করি। পেশাগত রেজুমে নিচে পাওয়া যাবে; পুরো গল্প ওয়েবসাইটে আছে।",
       employerBtn: "রেজুমে দেখুন (PDF)",
-      employerQuickTitle: "রেজুমে - দ্রুত পরিচিতি",
+      employerQuickTitle: "এক নজরে রিজুমি",
       empPoints: [
         "BUET-এ সিভিল ইঞ্জিনিয়ারিং ছাত্র — শক্ত ধারণা ও প্রজেক্ট অভিজ্ঞতা",
         "ওয়েব প্রজেক্ট, UI ডিজাইন ও স্টার্টআপ পরীক্ষার অভিজ্ঞতা",
@@ -136,21 +136,6 @@ const BioData = () => {
               </div>
             </div>
           </article>
-        </div>
-
-        {/* Quick collapses (inline short details) */}
-        <div className="mt-8 space-y-4">
-          <div id="employer-quick" className="collapse collapse-arrow border border-base-200 bg-base-100 rounded-box">
-            <input type="checkbox" className="peer" />
-            <div className="collapse-title text-lg font-semibold">{t.employerQuickTitle}</div>
-            <div className="collapse-content">
-              <ul className="list-disc pl-5 text-base-content/80 space-y-1">
-                {t.empPoints.map((p, i) => (
-                  <li key={i}>{p}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </section>
