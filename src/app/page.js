@@ -1,3 +1,4 @@
+import AcademicPoster from "@/components/AcademicPoster/AcademicPoster";
 import BioData from "@/components/BioData/BioData";
 import EntrepreneurialExperience from "@/components/EntrepreneuralExperience/EntrepreneuralExperience";
 import HeroSection from "@/components/HomePage/HeroSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <VolunteerSection />
       <Websites/>
       <Presentation/>
+      <AcademicPoster/>
     </>
   );
 }

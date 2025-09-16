@@ -1,19 +1,19 @@
 "use client";
 import React, { useState, useEffect, useMemo, Suspense } from "react";
 
-const Presentation = () => {
+const AcademicPoster = () => {
   const translations = useMemo(() => ({
     en: {
-      heading: "My Presentations",
-      description: "Explore the presentations I've created. Click on the links to play the slides directly.",
-      presentationList: [
+      heading: "My Academic Posters",
+      description: "Explore the academic posters I've created. Click on the links to view them directly.",
+      posterList: [
         {
           title: "Innovating Paddy Cultivation",
           src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
           publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
         },
         {
-          title: "MediBuddy a Telemedicine Platform",
+          title: "MedyBuddy a Telemedicine Platform",
           src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
           publicLink: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
         },
@@ -108,7 +108,7 @@ const Presentation = () => {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {t.presentationList.map((presentation, index) => (
+          {t.presentationList?.map((presentation, index) => (
             <div key={index} className="card bg-base-200 shadow-md">
               <div className="card-body">
                 <h3 className="text-xl font-semibold">{presentation.title}</h3>
@@ -198,4 +198,4 @@ const Presentation = () => {
   );
 };
 
-export default Presentation;
+export default AcademicPoster;

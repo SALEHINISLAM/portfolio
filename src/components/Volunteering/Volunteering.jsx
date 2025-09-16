@@ -20,6 +20,19 @@ const VolunteerSection = () => {
       ctaAll: "See all projects",
       entries: [
         {
+          role: "Founder — Events4Students",
+          org: "Personal project",
+          date: "2025",
+          description:
+            "This small initiative is for the students who are looking for opportunity to show their talents through various competitions like olympiads, science fairs, essay writing, debate etc. This website works as a aggregator of such competitions. It helps students to find and participate in these competitions easily. Organizers can also submit their competitions to be listed on this website.",
+          highlights: [
+            "Events aggregator for student competitions",
+            "Easy navigation for students",
+            "Submission portal for organizers",
+          ],
+          link: "http://event4student.com/",
+        },
+        {
           role: "Creator — College Admission Viva Website",
           org: "Personal project",
           date: "2023",
@@ -40,6 +53,19 @@ const VolunteerSection = () => {
         "আমাদের জীবনের একটা বড় উদ্দেশ্য হলো অন্যদের সাহায্য করা। এখানে আমি কিছু কমিউনিটি প্রজেক্টের কথা শেয়ার করছি যেগুলো আমি তৈরি বা সাপোর্ট করেছি।",
       ctaAll: "সব প্রজেক্ট দেখুন",
       entries: [
+        {
+          role: "Founder — Events4Students",
+          org: "ব্যক্তিগত প্রজেক্ট",
+          date: "2025",
+          description:
+            "এই ক্ষুদ্র উদ্যোগটি তাদের জন্য যারা বিভিন্ন প্রতিযোগিতার মাধ্যমে তাদের প্রতিভা প্রদর্শনের সুযোগ খুঁজছেন যেমন অলিম্পিয়াড, বিজ্ঞান মেলা, প্রবন্ধ লেখা, বিতর্ক ইত্যাদি। এই ওয়েবসাইটটি এমন প্রতিযোগিতাগুলোর একটি অ্যাগ্রিগেটর হিসেবে কাজ করে। এটি শিক্ষার্থীদের এই প্রতিযোগিতাগুলো সহজে খুঁজে পেতে এবং অংশগ্রহণ করতে সাহায্য করে। আয়োজকরা তাদের প্রতিযোগিতাগুলো এই ওয়েবসাইটে তালিকাভুক্ত করার জন্য জমা দিতে পারেন।",
+          highlights: [
+            "শিক্ষার্থী প্রতিযোগিতার জন্য ইভেন্ট অ্যাগ্রিগেটর",
+            "শিক্ষার্থীদের জন্য সহজ নেভিগেশন",
+            "আয়োজকদের জন্য সাবমিশন পোর্টাল",
+          ],
+          link: "http://event4student.com/",
+        },
         {
           role: "Creator — কলেজ ভর্তি ভিভা ওয়েবসাইট",
           org: "ব্যক্তিগত প্রজেক্ট",
