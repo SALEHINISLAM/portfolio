@@ -1,0 +1,8 @@
+# Allow all robots to crawl all pages
+User-agent: *
+Disallow: /api/      # Disallow crawling of the /api/ path (if applicable)
+Disallow: /admin/    # Disallow crawling of admin section
+Disallow: /private/  # Disallow crawling of private or confidential pages
+
+# Sitemap location
+Sitemap: https://mdsalehinislam.netlify.app/sitemap.xml

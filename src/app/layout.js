@@ -3,6 +3,7 @@ import MainNavbar from "@/components/Common/MainNavbar";
 import LanguageThemeToggle from "@/components/Common/LanguageThemeToggle";
 import { Roboto, Hind_Siliguri } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 // Configure Google Fonts
 const roboto = Roboto({
@@ -74,6 +75,28 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="light">
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Md Salehin Islam",
+              jobTitle: "Civil Engineering Student",
+              worksFor: {
+                "@type": "Organization",
+                name: "Bangladesh University of Engineering and Technology (BUET)",
+              },
+              sameAs: [
+                "https://www.linkedin.com/in/mohammad-salehin-islam/",
+                "https://www.facebook.com/mohammad.salehin.islam.27",
+              ],
+            }),
+          }}
+        />
+
+      </Head>
       <body className={`${roboto.variable} ${hindSiliguri.variable}`}>
         <MainNavbar />
         <LanguageThemeToggle />

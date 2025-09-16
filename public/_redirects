@@ -1,0 +1,8 @@
+# Example redirect from old page to new page
+/old-page    /new-page    301
+
+# Redirect HTTP to HTTPS (if needed)
+http://mdsalehinislam.netlify.app/*  https://mdsalehinislam.netlify.app/:splat   301
+
+# Custom 404 page
+/old-url    /404   404

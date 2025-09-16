@@ -1,4 +1,5 @@
 import AcademicPoster from "@/components/AcademicPoster/AcademicPoster";
+import Achievements from "@/components/Acheivements/Achievements";
 import BioData from "@/components/BioData/BioData";
 import EntrepreneurialExperience from "@/components/EntrepreneuralExperience/EntrepreneuralExperience";
 import HeroSection from "@/components/HomePage/HeroSection";
@@ -20,6 +21,7 @@ export default function Home() {
       <Websites/>
       <Presentation/>
       <AcademicPoster/>
+      <Achievements/>
     </>
   );
 }

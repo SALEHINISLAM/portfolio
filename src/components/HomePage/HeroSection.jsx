@@ -4,6 +4,13 @@ import Head from "next/head";
 import Image from "next/image";
 import { Suspense, useEffect, useState } from "react";
 
+export const metadata={
+  title: "Md Salehin Islam",
+  description:
+    "I’m studying Civil Engineering at BUET, but honestly, my world doesn’t stop there. Some days I’m teaching math, other days I’m sketching slides, tinkering with startups, coding up websites, or diving into research and competitions. Steve Jobs once said life is about collecting dots — and that’s what I’m doing now. In a few years, I believe these dots will connect into something meaningful, something I’ll be proud to call my story.",
+}
+
+
 const HeroSection = () => {
   const translations = {
     en: {
@@ -43,10 +50,6 @@ const HeroSection = () => {
   }, []);
   return (
     <div className="hero bg-base-200 min-h-screen">
-      <Head>
-        <title>{translations.name} - Civil Engineering Student at BUET</title>
-        <meta name="description" content={translations.description} />
-      </Head>
       <div className="hero-content text-center">
         <div className="max-w-lg mt-16 lg:mt-24">
           <Suspense fallback={<div className="skeleton h-full w-full" />}>

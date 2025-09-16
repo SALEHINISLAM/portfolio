@@ -67,7 +67,7 @@ const MainNavbar = () => {
             width={100}
             height={100}
           />
-          <span className="text-3xl font-extrabold hidden lg:block">
+          <span className="text-3xl font-extrabold">
             Salehin
           </span>
         </Link>
