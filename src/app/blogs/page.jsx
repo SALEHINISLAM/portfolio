@@ -1,31 +1,12 @@
-"use client";
+export const runtime = 'nodejs';
 
 import BlogCard from "@/components/blogPage/BlogCard";
+import { getAllPosts } from "../../lib/posts";
 import Image from "next/image";
 
 export default function BlogsPage() {
-  const blogs = [
-    {
-      id: 1,
-      title: "The Future of Civil Engineering in Bangladesh",
-      image: "/assets/blogs/civil-future.jpg",
-    },
-    {
-      id: 2,
-      title: "Why Volunteering Makes You a Better Professional",
-      image: "/assets/blogs/volunteering.jpg",
-    },
-    {
-      id: 3,
-      title: "How to Balance Study, Work & Personal Projects",
-      image: "/assets/blogs/balance.jpg",
-    },
-    {
-      id: 4,
-      title: "A Student’s Guide to Surviving BUET",
-      image: "/assets/blogs/buet-life.jpg",
-    },
-  ];
+
+  const posts = getAllPosts();
 
   return (
     <section className="bg-base-100 pb-20 px-6 pt-24">
@@ -46,9 +27,24 @@ export default function BlogsPage() {
 
         {/* Blog Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {blogs.map((blog) => (
-            <BlogCard key={blog.id} blog={blog} />
-          ))}
+          {posts.length ? (
+            posts.map((p) => (
+              <BlogCard
+                key={p.slug}
+                blog={{
+                  id: p.slug,
+                  title: p.title,
+                  image: p.image || "/assets/placeholder.jpg",
+                  slug: `${p.slug}`,
+                  excerpt: p.excerpt,
+                  date: p.date,
+                  tags: p.tags || [],
+                }}
+              />
+            ))
+          ) : (
+            <p className="text-center text-base-content/70">No posts yet.</p>
+          )}
         </div>
       </div>
     </section>

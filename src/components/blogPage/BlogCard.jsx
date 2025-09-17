@@ -18,10 +18,13 @@ export default function BlogCard({ blog }) {
 
       {/* Blog Content */}
       <div className="card-body">
-        <h3 className="card-title text-lg font-semibold">{blog.title}</h3>
+        <h3 className="card-title">{blog.title}</h3>
+        {blog.excerpt && (
+          <p className="text-base-content/70 line-clamp-2">{blog.excerpt}</p>
+        )}
         <div className="mt-4">
           <Link
-            href={`/blogs/${blog.id}`}
+            href={`/blogs/${blog.slug}`}
             className="btn btn-sm btn-primary"
           >
             Read More →
