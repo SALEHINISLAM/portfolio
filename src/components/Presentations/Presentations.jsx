@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect, useMemo, Suspense } from "react";
+import LazyIframe from "./LazyIframes";
 
 const Presentation = () => {
   const translations = useMemo(
@@ -14,36 +15,42 @@ const Presentation = () => {
             src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
             publicLink:
               "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
+            provider: "onedrive",
           },
           {
             title: "MediBuddy a Telemedicine Platform",
             src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
             publicLink:
               "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
+            provider: "onedrive",
           },
           {
             title: "Stokes Theorem",
             src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
             publicLink:
               "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
+            provider: "onedrive",
           },
           {
             title: "Edtech Industry",
             src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
             publicLink:
               "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
+            provider: "onedrive",
           },
           {
             title: "Unilever sparks Lifebuoy vs. Dove",
             src: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?embed",
             publicLink:
               "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?utm_content=DAGiD-eAucQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+            provider: "canva",
           },
           {
             title: "Platano Tex.pptx",
             src: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?embed",
             publicLink:
               "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?utm_content=DAF-MepRX6U&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+            provider: "canva",
           },
         ],
       },
@@ -57,36 +64,42 @@ const Presentation = () => {
             src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
             publicLink:
               "https://1drv.ms/p/c/6eef2a195b4e034e/IQT_lqR4GQx7T7OHubp8kwyiAfXIucpuRMVVBy2LpALFEaA",
+            provider: "onedrive",
           },
           {
             title: "আপনার সেবায় মেডিবাডি",
             src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
             publicLink:
               "https://1drv.ms/p/c/6eef2a195b4e034e/IQTTzcfl-bN3Qq5-lXUtjML8ARvpE1jwD0xrA7adtN1ti-c",
+            provider: "onedrive",
           },
           {
             title: "স্টোক্সের উপপাদ্য",
             src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
             publicLink:
               "https://1drv.ms/p/c/6eef2a195b4e034e/IQRXstGqoJVwQLrVoQa5vGyhAYoX1OEieta92LvhA7aZ0EM",
+            provider: "onedrive",
           },
           {
             title: "এডটেক ইন্ডাস্ট্রি",
             src: "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
             publicLink:
               "https://1drv.ms/p/c/6eef2a195b4e034e/IQRjFX1oln0zTpD8mpIZ88KLAYdAfdncuu-2rgsm4o8Pdvg",
+            provider: "onedrive",
           },
           {
             title: "Unilever sparks Lifebuoy vs. Dove",
             src: "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?embed",
             publicLink:
               "https://www.canva.com/design/DAGiD-eAucQ/pFyPTBsrhlrDIvSo0FtL0w/view?utm_content=DAGiD-eAucQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+            provider: "canva",
           },
           {
             title: "Platano Tex.pptx",
             src: "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?embed",
             publicLink:
               "https://www.canva.com/design/DAF-MepRX6U/yWwrK316fOM6g5iyKTmHhA/view?utm_content=DAF-MepRX6U&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
+            provider: "canva",
           },
         ],
       },
@@ -133,15 +146,19 @@ const Presentation = () => {
                   <Suspense
                     fallback={<div className="skeleton h-full w-full" />}
                   >
-                    <iframe
+                    <LazyIframe
                       src={presentation.src}
-                      width="100%"
-                      height="100%"
-                      style={{ border: "none", overflow: "hidden" }}
-                      allow="fullscreen"
                       title={presentation.title}
-                      loading="lazy"
-                    ></iframe>
+                      className="absolute inset-0"
+                      // Heavier OneDrive files get more time + retries; Canva is generally fast
+                      timeoutPerTry={
+                        presentation.provider === "onedrive" ? 15000 : 9000
+                      }
+                      maxRetries={presentation.provider === "onedrive" ? 8 : 4}
+                      preloadMargin={
+                        presentation.provider === "onedrive" ? "400px" : "200px"
+                      }
+                    />
                   </Suspense>
                 </div>
                 <div className="flex gap-4 mt-4">
@@ -195,13 +212,15 @@ const Presentation = () => {
             </div>
             <div className="mt-4">
               <Suspense fallback={<div className="skeleton h-full w-full" />}>
-                <iframe
+                <LazyIframe
                   src={activeVideo.src}
-                  width="100%"
-                  height="600px"
-                  style={{ border: "none", overflow: "hidden" }}
-                  allow="fullscreen"
-                ></iframe>
+                  title={activeVideo.title}
+                  className="w-full h-full"
+                  immediate
+                  timeoutPerTry={18000}
+                  maxRetries={10}
+                  preloadMargin="0px"
+                />
               </Suspense>
             </div>
             <div className="modal-action">

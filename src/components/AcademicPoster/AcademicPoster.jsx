@@ -10,7 +10,7 @@ const AcademicPoster = () => {
         {
           title: "Engineering Crisis in New York Citicorp Center",
           description: "A detailed poster on the engineering crisis faced by the Citicorp Center in New York. I made this poster solely.",
-          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTOgmYoGRYQQIkZoccwvpfqAd1vJdp_GFeTlJqaLEcZeoo?width=10800&height=7200",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQQen5vvPUj2SLlhyRZB_bFFAd1EGxGpgSU5b7yJ3eYBO34",
           publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTOgmYoGRYQQIkZoccwvpfqAd1vJdp_GFeTlJqaLEcZeoo?width=10800&height=7200",
         },
         {
@@ -22,13 +22,13 @@ const AcademicPoster = () => {
         {
           title: "The Importance of Plastic Roads",
           description: "An informative poster highlighting the benefits and implementation of plastic roads. Here my input was minimal. Adnan did most of the work. But initially the idea was mine. And I helped him find out information regarding plastic roads. Whatever, this poster secured 2nd Runner Up in MIST Environment Fest-2025.",
-          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTcflsQeesfTJKe9xUwRql0ASXfbeDN84h2qNoxq0I1wmc",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQSvWUUm2aVETaPyIIfOekoiAdrl9THFTg3PYxn0qFlEs_k?height=256",
           publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTcflsQeesfTJKe9xUwRql0ASXfbeDN84h2qNoxq0I1wmc",
         },
         {
           title: "SC Maglev Train",
           description: "A detailed poster on the SC Maglev Train, showcasing its design, technology, and potential impact on transportation. This poster was made by me and Nusrat.",
-          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQR_H2wsS4vXTIOU1zaJcsP3ASXOfPDMbqkJCJPFYIkOpcU?width=10800&height=7200",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQS3QNZJzbYITb8p_toYGmGdASJ6vleaKi2KKOjI1L84O_4",
           publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQR_H2wsS4vXTIOU1zaJcsP3ASXOfPDMbqkJCJPFYIkOpcU?width=10800&height=7200",
         },
       ],
@@ -40,7 +40,7 @@ const AcademicPoster = () => {
         {
           title: "নিউ ইয়র্ক সিটিকর্প সেন্টারে ইঞ্জিনিয়ারিং সংকট",
           description: "নিউ ইয়র্কের সিটিকর্প সেন্টারে ইঞ্জিনিয়ারিং সংকট নিয়ে একটি বিস্তারিত পোস্টার। আমি এই পোস্টারটি একাই তৈরি করেছি।",
-          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTOgmYoGRYQQIkZoccwvpfqAd1vJdp_GFeTlJqaLEcZeoo?width=10800&height=7200",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQQen5vvPUj2SLlhyRZB_bFFAd1EGxGpgSU5b7yJ3eYBO34",
           publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTOgmYoGRYQQIkZoccwvpfqAd1vJdp_GFeTlJqaLEcZeoo?width=10800&height=7200",
         },
         {
@@ -52,13 +52,13 @@ const AcademicPoster = () => {
         {
           title: "প্লাস্টিকের রাস্তার গুরুত্ব",
           description: "প্লাস্টিকের রাস্তার সুবিধা এবং বাস্তবায়ন নিয়ে একটি তথ্যবহুল পোস্টার। এখানে আমার ইনপুট খুবই কম। আদনান বেশিরভাগ কাজ করেছে। কিন্তু শুরুতে আইডিয়াটা আমারই ছিল এবং প্লাস্টিকের রাস্তা সম্পর্কে তথ্য খুঁজে পেতে আমি তাকে সাহায্য করেছি। যায়হোক এই পোস্টার টি MIST এর Environment Fest এ 2nd Runner Up স্থান অধিকার করে।",
-          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTcflsQeesfTJKe9xUwRql0ASXfbeDN84h2qNoxq0I1wmc",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQSvWUUm2aVETaPyIIfOekoiAdrl9THFTg3PYxn0qFlEs_k?height=256",
           publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQTcflsQeesfTJKe9xUwRql0ASXfbeDN84h2qNoxq0I1wmc",
         },
         {
           title: "SC Maglev Train",
           description:"SC Maglev Train নিয়ে একটি বিস্তারিত পোস্টার, যা এর ডিজাইন, প্রযুক্তি এবং পরিবহনে সম্ভাব্য প্রভাব তুলে ধরে। এই পোস্টারটি আমি এবং নুসরাত তৈরি করেছি।",
-          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQR_H2wsS4vXTIOU1zaJcsP3ASXOfPDMbqkJCJPFYIkOpcU?width=10800&height=7200",
+          src: "https://1drv.ms/i/c/6eef2a195b4e034e/IQS3QNZJzbYITb8p_toYGmGdASJ6vleaKi2KKOjI1L84O_4",
           publicLink: "https://1drv.ms/i/c/6eef2a195b4e034e/IQR_H2wsS4vXTIOU1zaJcsP3ASXOfPDMbqkJCJPFYIkOpcU?width=10800&height=7200",
         },
       ],

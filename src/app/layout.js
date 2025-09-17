@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
-
+        <meta name="google-site-verification" content="XcFJ52E-Va9ekoGFZf2nZDglyMmOomQSOvI2bZUgBlU" />
       </Head>
       <body className={`${roboto.variable} ${hindSiliguri.variable}`}>
         <MainNavbar />

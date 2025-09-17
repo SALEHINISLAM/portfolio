@@ -1,6 +1,7 @@
 "use client";
 
 import { Suspense, useEffect, useState } from "react";
+import LazyImage from "./LazyImage";
 
 const Achievements = () => {
   const translations = {
@@ -273,12 +274,16 @@ const Achievements = () => {
                     </div>
                   }
                 >
-                  <img
+                  <LazyImage
                     src={openedCertificate}
                     alt="Certificate"
                     className="max-w-full max-h-full object-contain"
-                    loading="lazy"
+                    immediate
+                    timeoutPerTry={16000}
+                    maxRetries={10}
+                    preloadMargin="0px"
                     fetchPriority="high"
+                    style={{ display: "grid", placeItems: "center" }}
                   />
                 </Suspense>
               </div>
