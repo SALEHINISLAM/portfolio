@@ -22,7 +22,7 @@ export default async function BlogPostPage({ params }) {
   const MDXContent = mdxModule.default;
 
   return (
-    <article className="max-w-3xl mx-auto px-6 py-12 pt-24">
+    <article className="max-w-3xl mx-auto px-6 pb-12 pt-24">
       <h1 className="text-4xl font-bold mb-2">{meta.title}</h1>
       <p className="text-sm text-base-content/60 mb-6">
         {meta.date ? new Date(meta.date).toLocaleDateString() : ""}
