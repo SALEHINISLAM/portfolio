@@ -4,6 +4,52 @@ import BlogCard from "@/components/blogPage/BlogCard";
 import { getAllPosts } from "../../lib/posts";
 import Image from "next/image";
 
+// ✅ SEO Metadata
+export const metadata = {
+  title: "My Blogs | Md Salehin Islam",
+  description:
+    "Thoughts, experiences, and lessons from my journey as a student, volunteer, and aspiring engineer. I write not just to share knowledge but to connect with hearts.Please these are totally my perspective. Don't fill offended.",
+  keywords: [
+    "Md Salehin Islam",
+    "Salehin",
+    "BUET",
+    "BUET Student",
+    "Udvash",
+    "Utkorsho",
+    "Web Developer",
+    "student blogs",
+    "engineering journey",
+    "personal experiences",
+    "volunteering lessons",
+    "aspiring engineer blog",
+  ],
+  openGraph: {
+    title: "📝 My Blogs - Md Salehin Islam",
+    description:
+      "Personal blogs on engineering, volunteering, and life lessons. Written to inspire, share, and connect.",
+    url: "https://mdsalehinislam.netlify.app/blogs",
+    siteName: "Md Salehin Islam",
+    images: [
+      {
+        url: "/assets/blogPage.png",
+        width: 1200,
+        height: 630,
+        alt: "Md Salehin Islam Blogs",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "📝 My Blogs - Md Salehin Islam",
+    description:
+      "Personal blogs on engineering, volunteering, and life lessons. Written to inspire, share, and connect.",
+    images: ["/assets/blogPage.png"],
+    creator: "@mdsalehinislam",
+  },
+};
+
 export default function BlogsPage() {
   const posts = getAllPosts();
 

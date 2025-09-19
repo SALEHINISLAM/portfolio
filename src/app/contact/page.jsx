@@ -1,6 +1,46 @@
-"use client";
 import Image from "next/image";
 import { FaLinkedin, FaFacebook, FaGithub, FaSlideshare, FaEnvelope } from "react-icons/fa";
+
+export const metadata = {
+  title: "Contact | Md Salehin Islam",
+  description:
+    "Get in touch with Md Salehin Islam. Let's connect on LinkedIn, Facebook, GitHub, or SlideShare — or drop me an email. Always open for collaboration and meaningful conversations.",
+  keywords: [
+    "Md Salehin Islam contact",
+    "connect with Md Salehin Islam",
+    "LinkedIn Md Salehin Islam",
+    "Facebook Md Salehin Islam",
+    "GitHub SALEHINISLAM",
+    "SlideShare Md Salehin Islam",
+    "email Md Salehin Islam",
+    "collaboration with engineer",
+    "Salehin",
+    "BUET",
+    "Udvash",
+    "Aspect Series",
+    "Udvash Teacher",
+    "Utkorsho Teacher",
+    "Onnorokom Edtech Ltd",
+    "BUET Student"
+  ],
+  openGraph: {
+    title: "🤝 Contact Md Salehin Islam",
+    description:
+      "Let’s connect! Reach Md Salehin Islam via LinkedIn, Facebook, GitHub, SlideShare, or email. Always open to collaboration and impactful conversations.",
+    url: "https://yourdomain.com/contact",
+    siteName: "Md Salehin Islam",
+    images: [
+      {
+        url: "/assets/contactPage.png",
+        width: 1200,
+        height: 630,
+        alt: "Md Salehin Islam - Contact Page",
+      },
+    ],
+    locale: "en_US",
+    type: "profile",
+  },
+};
 
 export default function ContactPage() {
   const socials = [
