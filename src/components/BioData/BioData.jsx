@@ -2,12 +2,11 @@
 
 import { useEffect, useState } from "react";
 
-/**
- * BiodataSection — DaisyUI v5 class-based implementation
- * - No react-daisyui components; uses daisyUI HTML classes (card, btn, collapse, etc.)
- * - Language auto-detect via document.documentElement.lang (same pattern as your Hero)
- * - Responsive: mobile 1-column, md two columns
- */
+export const metadata={
+  title: "Bio Data | Md Salehin Islam",
+  description:
+    "This is biodata section of the famous person Md Salehi Islam. You can recruit him for growing your business or collaborate with him for your personal interest.",
+}
 
 const BioData = () => {
   const translations = {
