@@ -51,14 +51,20 @@ export default function EducationalBackground() {
             class: "BSc in Civil Engineering (Ongoing)",
           },
           {
+            institution:
+              "Notre Dame College, Dhaka",
+            logo: "/assets/ndc.png",
+            class: "College Life (Intermediate 1st and 2nd year)",
+          },
+          {
             institution: "Armanitola Government High School",
             logo: "/assets/aghs.jpg",
-            class: "class 09 to class 10",
+            class: "Class 09 to class 10",
           },
           {
             institution: "Islamia Government High School",
             logo: "/assets/ighs.jpg",
-            class: "class 06 to class 08",
+            class: "Class 06 to class 08",
           },
           {
             institution: "Goljarbag Government Primary School",
@@ -125,6 +131,11 @@ export default function EducationalBackground() {
             institution: "বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (বুয়েট)",
             logo: "/assets/buet.png",
             class: "সিভিল ইঞ্জিনিয়ারিং-এ বিএসসি (চলমান)",
+          },
+          {
+            institution: "নটর ডেম কলেজ, ঢাকা",
+            logo: "/assets/ndc.png",
+            class: "কলেজ জীবন এখানে কাটিয়েছি",
           },
           {
             institution: "আরমানিটোলা সরকারি উচ্চ বিদ্যালয়",

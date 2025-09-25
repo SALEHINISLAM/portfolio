@@ -147,7 +147,7 @@ export default async function BlogPostPage({ params }) {
       <nav aria-label="Breadcrumb" className="text-sm mb-4">
         <ol className="flex items-center gap-2 text-base-content/60">
           <li>
-            <Link href="/blog" className="hover:text-base-content">
+            <Link href="/blogs" className="hover:text-base-content">
               Blog
             </Link>
           </li>
