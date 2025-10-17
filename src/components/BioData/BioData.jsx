@@ -123,7 +123,7 @@ const BioData = () => {
 
               <div className="card-actions justify-end mt-4">
                 <a
-                  href="https://docs.google.com/presentation/d/e/2PACX-1vTokNk_ourr74UmicJxKoou_4nesg-A-ng5EJPnNnEyA0F_qeJD3rcUvY_EQTbRyzMG3nlYiW147fsc/pub?start=true&loop=false&delayms=60000"
+                  href="https://docs.google.com/presentation/d/e/2PACX-1vTokNk_ourr74UmicJxKoou_4nesg-A-ng5EJPnNnEyA0F_qeJD3rcUvY_EQTbRyzMG3nlYiW147fsc/pub?start=false&loop=false&delayms=10000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-secondary"

@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
 import { getAllPosts, getPostMeta } from "../../../lib/posts";
+import { GeneratePlaceholder } from "@/components/blogPage/CreateImage";
 
 // ---- Site base URL (set NEXT_PUBLIC_SITE_URL in env) ----
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
@@ -172,10 +173,21 @@ export default async function BlogPostPage({ params }) {
         
       </div>
 
-      {meta.image && (
+      {meta.image ? (
         <div className="mb-8">
           <Image
             src={meta.image}
+            alt={meta.imageAlt || `${meta.title} – cover image- Md Salehin Islam's blog`}
+            width={1200}
+            height={630}
+            priority
+            className="rounded-2xl w-full h-auto"
+          />
+        </div>
+      ):(
+        <div className="mb-8">
+          <Image
+            src={GeneratePlaceholder(meta.title)}
             alt={meta.imageAlt || `${meta.title} – cover image- Md Salehin Islam's blog`}
             width={1200}
             height={630}

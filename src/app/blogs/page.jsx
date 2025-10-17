@@ -3,6 +3,7 @@ export const runtime = "nodejs";
 import BlogCard from "@/components/blogPage/BlogCard";
 import { getAllPosts } from "../../lib/posts";
 import Image from "next/image";
+import { GeneratePlaceholder } from "@/components/blogPage/CreateImage";
 
 // ✅ SEO Metadata
 export const metadata = {
@@ -82,7 +83,7 @@ export default function BlogsPage() {
                 blog={{
                   id: p.slug,
                   title: p.title,
-                  image: p.image || "/assets/placeholder.jpg",
+                  image: p.image || GeneratePlaceholder(p.title),
                   slug: `${p.slug}`,
                   excerpt: p.excerpt,
                   date: p.date,
