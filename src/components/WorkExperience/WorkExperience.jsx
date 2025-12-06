@@ -13,7 +13,6 @@ export default function WorkExperience() {
         title: "🚀 Work Experience & Journey",
         subtitle:
           "A short, human story of how I learned to show up, take ownership, and teach with care.",
-        cta: "View résumé",
         items: [
           {
             date: "July 2022",
@@ -38,7 +37,7 @@ export default function WorkExperience() {
               "Confidence beats comfort. I learned to start conversations, own a deadline, and ship quality work.",
           },
           {
-            date: "Aug 2022 — Present",
+            date: "Aug 2022 — Nov 2025",
             org: "Udvash",
             role: "Math Teacher • Content Contributor • Script Evaluator",
             imageSrc: "/assets/udvashLogo.png",
@@ -81,13 +80,37 @@ export default function WorkExperience() {
             takeaway:
               "Small teams let me wear many hats and ship practical, visual learning.",
           },
+          {
+            date: "Nov 2025 — Present",
+            org: "The Royal Scientific Publications Ltd.",
+            role: "Research Trainee (Math Department)",
+            imageSrc: "/assets/trsp.png",
+            story:
+              "I left Udvash in November 2025 and joined The Royal Scientific Publications Ltd. as a Research Trainee. My work focuses on researching content, updating and modifying books to match curriculum changes and student demand. For the first time I felt a distinct office vibe—serious, professional people and structured processes. Since I love math, I work within the Math department, applying subject knowledge to improve textbooks and learning materials.",
+            moments: [
+              "Joined as Research Trainee in the Math department",
+              "Researched and updated book content to align with curriculum",
+              "Worked closely with editorial and production teams",
+              "Experienced a professional office environment for the first time",
+            ],
+            skills: [
+              "Content research",
+              "Curriculum alignment",
+              "Book editing & revision",
+              "Cross-team collaboration",
+              "Professional communication",
+            ],
+            takeaway:
+              "Working in a formal office taught me professional standards and processes; I enjoyed using my math background to shape better textbooks.",
+            note:
+              "🧾 First real office-vibe experience—serious, structured, and energizing.",
+          },
         ],
       },
       bn: {
         title: "🚀 কাজের অভিজ্ঞতা ও যাত্রা",
         subtitle:
           "আমি কীভাবে নিজে থেকে এগিয়ে গিয়ে, দায়িত্ব নিয়েছি—আর যত্ন নিয়ে শেখিয়েছি—তার ছোট্ট মানবিক গল্প।",
-        cta: "রিজ়্যুমে দেখুন",
         items: [
           {
             date: "জুলাই ২০২২",
@@ -112,8 +135,8 @@ export default function WorkExperience() {
               "আত্মবিশ্বাস কমফোর্টকে হারায়—কথা বলা, ডেডলাইন রাখা আর মানসম্মত কাজ শিখেছি।",
           },
           {
-            date: "আগস্ট ২০২২ — বর্তমান",
-            org: "উদ্ভাস Coaching",
+            date: "আগস্ট ২০২২ — নভেম্বর ২০২৫",
+            org: "উদ্ভাস",
             role: "ম্যাথ টিচার • কনটেন্ট কন্ট্রিবিউটর • স্ক্রিপ্ট ইভ্যালুয়েটর",
             imageSrc: "/assets/udvashLogo.png",
             story:
@@ -154,6 +177,31 @@ export default function WorkExperience() {
             ],
             note: "🎯 উৎকর্ষকে নিজের কাজের মতো দেখি—এখনও যুক্ত আছি।",
             takeaway: "ছোট টিমে অনেক কিছু ট্রাই করা যায়।",
+          },
+          {
+            date: "নভেম্বর ২০২৫ — বর্তমান",
+            org: "The Royal Scientific Publications Ltd.",
+            role: "রিসার্চ ট্রেইনি (ম্যাথ বিভাগ)",
+            imageSrc: "/assets/trsp.png",
+            story:
+              "আমি নভেম্বর ২০২৫-এ উদ্ভাস ছেড়ে The Royal Scientific Publications Ltd.-এ রিসার্চ ট্রেইনি হিসেবে যোগ দিয়েছি। এখানে আমার কাজ হলো কনটেন্ট রিসার্চ করা, পাঠ্যসূচি ও ছাত্রদের চাহিদা অনুযায়ী বই আপডেট ও সংশোধন করা। প্রথমবারের মতো অফিসের সুনির্দিষ্ট ভাইব টের পেয়েছি—গুরুতর ও পেশাদার মানুষ; স্ট্রাকচারড প্রসেস। যেহেতু গণিত আমার ভালো লাগে, আমি ম্যাথ ডিপার্টমেন্টে কাজ করছি এবং পাঠ্যপুস্তক উন্নয়নে আমার বিষয়জ্ঞান প্রয়োগ করছি।",
+            moments: [
+              "ম্যাথ ডিপার্টমেন্টে রিসার্চ ট্রেইনি হিসেবে যোগদান",
+              "পাঠ্যসূচি অনুযায়ী বই-উন্নয়ন ও কনটেন্ট আপডেট",
+              "এডিটোরিয়াল ও প্রোডাকশন টিমের সঙ্গে নিকট সমন্বয়",
+              "প্রথমবার পেশাদার অফিস-ভাইব অনুভব করা",
+            ],
+            skills: [
+              "কনটেন্ট রিসার্চ",
+              "কারিকুলাম অ্যলাইনমেন্ট",
+              "বই-এডিটিং ও রিভিশন",
+              "ক্রস-টিম সহযোগিতা",
+              "পেশাদার যোগাযোগ",
+            ],
+            takeaway:
+              "অফিস-এ কাজ করে পেশাগত স্ট্যান্ডার্ড ও প্রসেসের প্রশিক্ষণ পেলাম; গণিত দক্ষতা ব্যবহার করে ভালো বই তৈরিতে আনন্দ পাই।",
+            note:
+              "🧾 প্রথম সত্যিকারের অফিস-ভাইব—গুরুতর, স্ট্রাকচারড এবং অনুপ্রেরণাদায়ক।",
           },
         ],
       },
