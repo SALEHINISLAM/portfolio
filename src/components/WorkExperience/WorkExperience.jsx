@@ -105,6 +105,30 @@ export default function WorkExperience() {
             note:
               "🧾 First real office-vibe experience—serious, structured, and energizing.",
           },
+          {
+            date: "Apr 2026 — Present",
+            org: "MediGambit",
+            role: "Instructor",
+            imageSrc: "/assets/mg.jpg",
+            story:
+              "You know I always want to try new things. I joined MediGambit in April 2026 to teach physics to medical students. It’s a different audience and curriculum, but I’m excited to apply my teaching skills in a new context and help future doctors in their admission journey. I seriously love to see the phase where a platform is just starting to build its content and teaching approach, and I’m thrilled to be part of that journey at MediGambit.",
+            moments: [
+              "Joined as an Instructor for physics at MediGambit",
+              "Adapting teaching style to a new audience of medical students",
+              "Contributing to content development for a new platform",
+            ],
+            skills: [
+              "Content research",
+              "Curriculum alignment",
+              "Cross-team collaboration",
+              "Taking class",
+              "Motivateing students",
+            ],
+            takeaway:
+              "Teaching a new subject to a new audience is a great way to grow as an educator; I’m excited to help medical aspirants students succeed and to learn from this experience myself.",
+            note:
+              "🚀 Always eager to try new things—I’m excited to teach physics to medical aspirants student and be part of MediGambit’s early journey.",
+          },
         ],
       },
       bn: {
@@ -202,6 +226,30 @@ export default function WorkExperience() {
               "অফিস-এ কাজ করে পেশাগত স্ট্যান্ডার্ড ও প্রসেসের প্রশিক্ষণ পেলাম; গণিত দক্ষতা ব্যবহার করে ভালো বই তৈরিতে আনন্দ পাই।",
             note:
               "🧾 প্রথম সত্যিকারের অফিস-ভাইব—গুরুতর, স্ট্রাকচারড এবং অনুপ্রেরণাদায়ক।",
+          },
+          {
+            date: "এপ্রিল ২০২৬ — বর্তমান",
+            org: "MediGambit",
+            role: "Instructor",
+            imageSrc: "/assets/mg.jpg",
+            story:
+              "আপনি জানেন আমি সবসময় নতুন কিছু ট্রাই করতে চাই। আমি এপ্রিল ২০২৬-এ MediGambit-এ যোগ দিয়েছি মেডিকেল ভর্তিচ্ছু শিক্ষার্থীদের পদার্থবিজ্ঞান শেখানোর জন্য। এটা একটা ভিন্ন শ্রোতা ও পাঠ্যক্রম, কিন্তু আমি আমার টিচিং স্কিল নতুন কনটেক্সটে প্রয়োগ করতে এবং ভবিষ্যতের ডাক্তারদের তাদের অ্যাডমিশন যাত্রায় সাহায্য করতে আগ্রহী। আমি সত্যিই ভালোবাসি সেই ফেজ দেখতে যেখানে একটা প্ল্যাটফর্ম তার কনটেন্ট ও টিচিং অ্যাপ্রোচ তৈরি করছে, এবং আমি MediGambit-এর সেই যাত্রার অংশ হতে পেরে উত্তেজিত।",
+            moments: [
+              "MediGambit-এ পদার্থবিজ্ঞানের Instructor হিসেবে যোগদান",
+              "মেডিকেল ভর্তিচ্ছু শিক্ষার্থীদের জন্য টিচিং স্টাইল অ্যাডাপ্ট করা",
+              "নতুন প্ল্যাটফর্মের জন্য কনটেন্ট ডেভেলপমেন্টে অবদান রাখা",
+            ],
+            skills: [
+              "কনটেন্ট রিসার্চ",
+              "কারিকুলাম অ্যলাইনমেন্ট",
+              "ক্রস-টিম সহযোগিতা",
+              "ক্লাস নেওয়া",
+              "শিক্ষার্থীদের প্রেরণা দেওয়া",
+            ],
+            takeaway:
+              "নতুন বিষয় নতুন শ্রোতার কাছে শেখানো একজন শিক্ষাবিদের জন্য বড় সুযোগ; আমি মেডিকেল ভর্তিচ্ছু শিক্ষার্থীদের সফল হতে সাহায্য করতে এবং নিজেও এই অভিজ্ঞতা থেকে শেখার জন্য উত্তেজিত।",
+            note:
+              "🚀 সবসময় নতুন কিছু ট্রাই করতে আগ্রহী—আমি মেডিকেল ভর্তিচ্ছু শিক্ষার্থীদের পদার্থবিজ্ঞান শেখাতে এবং MediGambit-এর প্রথম যাত্রার অংশ হতে উত্তেজিত।",
           },
         ],
       },
