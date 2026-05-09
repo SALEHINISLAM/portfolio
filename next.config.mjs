@@ -2,15 +2,15 @@
 import createMDX from "@next/mdx"
 import remarkFrontmatter from "remark-frontmatter";
 import remarkGfm from 'remark-gfm';
-import remarkMdxFrontmatter from "remark-mdx-frontmatter";
+//import remarkMdxFrontmatter from "remark-mdx-frontmatter";
 
 /** Enable MDX support */
 const withMDX = createMDX({
     extension: /\.mdx?$/,
     options: {
-        remarkPlugins: [remarkGfm,remarkFrontmatter,remarkMdxFrontmatter],
+        remarkPlugins: [remarkGfm,remarkFrontmatter],
         // 👇 point to our server-safe provider (path is relative to project root)
-        providerImportSource: '@/mdx-components.js',
+        //providerImportSource: '@/mdx-components.js',
     },
 });
 
